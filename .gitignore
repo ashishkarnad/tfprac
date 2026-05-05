@@ -1,0 +1,39 @@
+# Terraform files
+.terraform/
+**/.terraform/**
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+tfplan
+*.tfvars
+*.tfvars.json
+terraform.tfvars.backup.20251203-153420
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.env.local
+
+# Logs
+*.log
+
+# Large files that shouldn't be committed
+k8s/kubectl
+k8s/kustomize
+
+# AWS temporary files
+kubeconfig
+.kube/
+
+# Node modules (if any)
+node_modules/
+
+# Build artifacts
+dist/
+build/
